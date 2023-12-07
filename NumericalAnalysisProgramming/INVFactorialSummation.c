@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
+//This function calculates the factorial of the input n
 int factorial(int n)
 {
     int i;
@@ -14,6 +15,7 @@ int factorial(int n)
     return temp;
 }
 
+//This function calculates the summation of the inverse factorial
 double summation(int n)
 {
     int i;
@@ -26,7 +28,7 @@ double summation(int n)
 
     return sum;
 }
-
+//The n value assigned was 7 but could be changed to allow input
 void main()
 {
     int n;
