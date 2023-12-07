@@ -80,7 +80,7 @@ void loop()
   }
   delay(1000);
 
-  for(int x = 0 ; x < 25 ; x++) //This is to retract the arms 20 steps
+  for(int x = 0 ; x < 25 ; x++) //This is to retract the arms 25 steps
   {
     digitalWrite(DirX, LOW); //CCW
     digitalWrite(DirY, HIGH); //CW
